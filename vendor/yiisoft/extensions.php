@@ -48,4 +48,22 @@ return array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
     ),
   ),
+  'thinker-g/yii2-hermes-mailing' => 
+  array (
+    'name' => 'thinker-g/yii2-hermes-mailing',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@thinker_g/HermesMailing' => $vendorDir . '/thinker-g/yii2-hermes-mailing',
+    ),
+  ),
+  'yiisoft/yii2-redis' => 
+  array (
+    'name' => 'yiisoft/yii2-redis',
+    'version' => '2.0.11.0',
+    'alias' => 
+    array (
+      '@yii/redis' => $vendorDir . '/yiisoft/yii2-redis/src',
+    ),
+  ),
 );

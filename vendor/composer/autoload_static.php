@@ -11,9 +11,9 @@ class ComposerStaticInit9e3967ea6a1026d001a584b49fb64080
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
     );
 
@@ -21,12 +21,18 @@ class ComposerStaticInit9e3967ea6a1026d001a584b49fb64080
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\redis\\' => 10,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+        ),
+        't' => 
+        array (
+            'thinker_g\\HermesMailing\\' => 24,
+            'thinker_g\\Helpers\\' => 18,
         ),
         'p' => 
         array (
@@ -91,6 +97,10 @@ class ComposerStaticInit9e3967ea6a1026d001a584b49fb64080
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\redis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-redis/src',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii/src',
@@ -114,6 +124,14 @@ class ComposerStaticInit9e3967ea6a1026d001a584b49fb64080
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'thinker_g\\HermesMailing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thinker-g/yii2-hermes-mailing',
+        ),
+        'thinker_g\\Helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thinker-g/yii2-helpers',
         ),
         'phpDocumentor\\Reflection\\' => 
         array (

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b3688ca40645a1095f8ca8f61473a9c",
+    "content-hash": "b652fa560dc582d1af3ebc522a55c7b6",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -374,6 +374,91 @@
             "time": "2018-07-31T09:26:32+00:00"
         },
         {
+            "name": "thinker-g/yii2-helpers",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinker-g/yii2-helpers.git",
+                "reference": "29e35ede6e6302daed9d48ac3ee97503ec16dc08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinker-g/yii2-helpers/zipball/29e35ede6e6302daed9d48ac3ee97503ec16dc08",
+                "reference": "29e35ede6e6302daed9d48ac3ee97503ec16dc08",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "thinker_g\\Helpers\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thinker-g",
+                    "email": "jiyan.guo@gmail.com"
+                }
+            ],
+            "description": "Helper classes for thinker-g's extensions",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2015-09-11T17:37:28+00:00"
+        },
+        {
+            "name": "thinker-g/yii2-hermes-mailing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinker-g/yii2-hermes-mailing.git",
+                "reference": "1579258d57904dfcd8849bca3c284c8d874d9c97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinker-g/yii2-hermes-mailing/zipball/1579258d57904dfcd8849bca3c284c8d874d9c97",
+                "reference": "1579258d57904dfcd8849bca3c284c8d874d9c97",
+                "shasum": ""
+            },
+            "require": {
+                "thinker-g/yii2-helpers": "*",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-swiftmailer": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "thinker_g\\HermesMailing\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thinker-g",
+                    "email": "jiyan.guo@gmail.com"
+                }
+            ],
+            "description": "Highly configurable multi-process emailing solution (console command) for yii2.0.",
+            "keywords": [
+                "distributed",
+                "emailing",
+                "multi-process",
+                "yii2"
+            ],
+            "time": "2016-07-26T09:31:11+00:00"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.15.1",
             "source": {
@@ -586,6 +671,58 @@
                 "yii2"
             ],
             "time": "2018-07-05T15:44:47+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-redis",
+            "version": "2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-redis.git",
+                "reference": "92f2926296996c78f2441fc81e357a6e3b349e5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-redis/zipball/92f2926296996c78f2441fc81e357a6e3b349e5e",
+                "reference": "92f2926296996c78f2441fc81e357a6e3b349e5e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.14"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<7",
+                "yiisoft/yii2-dev": "~2.0.14"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\redis\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "Redis Cache, Session and ActiveRecord for the Yii framework",
+            "keywords": [
+                "active-record",
+                "cache",
+                "redis",
+                "session",
+                "yii2"
+            ],
+            "time": "2019-11-05T14:58:47+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -869,6 +1006,7 @@
                 "functional testing",
                 "unit testing"
             ],
+            "abandoned": true,
             "time": "2018-10-29T21:37:15+00:00"
         },
         {
@@ -1834,6 +1972,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
@@ -3262,7 +3401,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "thinker-g/yii2-hermes-mailing": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
